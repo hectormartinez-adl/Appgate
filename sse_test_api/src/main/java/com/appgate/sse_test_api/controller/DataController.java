@@ -25,6 +25,6 @@ public class DataController {
     public String getData(@RequestParam("target") String target, @RequestParam("source") String source) throws IOException {
 
         ArrayList<String> list = iSimilarityDomain.getSimilarDomains(target, iReadFile.readFileInList());
-        return "Score: " + list;
+        return "Score dsfsdf: " + list;
     }
 }
